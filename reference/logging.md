@@ -17,7 +17,7 @@ By default, jclouds does no logging whatsoever for maximum performance.
 
 [SLF4J](http://www.slf4j.org/) is the logging facade for jclouds. To use SLF4J you need the jclouds-slf4j-X.X.X.jar and the implementation logback-*.jar ([download](http://logback.qos.ch/download.html)) files on your classpath. To get them via Maven add the following dependencies to your pom.xml file.
 
-{% highlight xml %}
+{% highlight xml %} 
 <dependencies>
   <dependency>
     <groupId>org.apache.jclouds.driver</groupId>
